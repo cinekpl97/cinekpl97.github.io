@@ -7,10 +7,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const divStyle = {
-  backgroundImage: `url(${Background})`
-}
-
 export default function App(): JSX.Element {
   return (
     <div className='container'>
@@ -21,9 +17,13 @@ export default function App(): JSX.Element {
           </Col>
         </Row>
         <Row>
-          <Col></Col>
-          <Col xs={8}><MediaBox></MediaBox></Col>
-          <Col></Col>
+          <Col xl={2}></Col>
+          <Col xl={8}>
+            <MediaBox></MediaBox>
+          </Col>
+          <Col xl={2}></Col>
+
+
         </Row>
       </Container>
 

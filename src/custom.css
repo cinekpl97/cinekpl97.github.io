@@ -24,12 +24,10 @@
 
 .mediaBoxBody {
     margin-top: 1em;
+    overflow: hidden;
 }
 
 .mediaBoxImage {
     margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 90;
-    height: 90;
+    margin-left: 25%;
 }
