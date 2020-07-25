@@ -7,27 +7,38 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+
+.desktop {
+    margin-top: 5em;
 }
 
 .mediabox {
     margin-top: 1em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     position: center;
     border-radius: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
 }
 
 .mediaBoxBody {
     margin-top: 1em;
-    overflow: hidden;
+    text-align: center;
 }
 
 .mediaBoxImage {
+    height: 7rem;
+    width: 7rem;
+    display: block;
     margin-top: 1em;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
